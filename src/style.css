@@ -25,3 +25,16 @@ body {
 svg {
     width: 60%;
 }
+
+@media (max-width: 900px) {
+
+    body {
+        padding: 1rem;
+    }
+
+    svg {
+        max-height: 80vh;
+        width: 100%;
+    }
+
+}
